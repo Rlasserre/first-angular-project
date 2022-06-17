@@ -14,7 +14,7 @@ import { ComponentePersonalizadoComponent } from './componente-personalizado/com
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1.component';
-import { Servicos2Component } from './servicos2/servicos2.component';
+import { ExemploServicos2Component } from './exemplo-servicos2/exemplo-servicos2.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +29,7 @@ import { Servicos2Component } from './servicos2/servicos2.component';
     ComponentePaiComponent,
     ComponenteFilhoComponent,
     ExemploServicos1Component,
-    Servicos2Component,
-
+    ExemploServicos2Component,
   ],
   imports: [
     BrowserModule,
